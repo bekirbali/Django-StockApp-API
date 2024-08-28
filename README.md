@@ -32,11 +32,11 @@ Bu proje, Stock App uygulaması için gerekli olan API'yi oluşturmayı amaçlam
    ```bash
    git clone <repo-url>
    cd <repo-directory>
-   ```
 
    python -m venv env
    source env/bin/activate # Unix/Mac
    .\env\Scripts\activate # Windows
+   ```
 
 ```bash
 pip install -r requirements.txt
@@ -45,11 +45,3 @@ python manage.py migrate
 
 python manage.py runserver
 ```
-
-### İletişim
-
-Sorularınız veya destek için bana ulaşabilirsiniz:
-
-### Email: example@example.com
-
-### GitHub: github.com/username
