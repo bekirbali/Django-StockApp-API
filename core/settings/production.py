@@ -4,10 +4,12 @@ from .base import *
 DEBUG = False
 # python manage.py runserver --insecure
 
-ALLOWED_HOSTS = [
-    '127.0.0.1',
-    'localhost:3000',
-]
+# ALLOWED_HOSTS = [
+#     '127.0.0.1',
+#     'localhost:3000',
+# ]
+
+ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS += []
 

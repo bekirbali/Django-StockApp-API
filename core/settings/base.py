@@ -169,3 +169,11 @@ CORS_ALLOW_METHODS = [
 # CSRF_TRUSTED_ORIGINS = [
 #     'https://backend.fullstack.clarusway.com',
 # ]
+
+ALLOWED_HOSTS = ['*']
+
+CORS_ALLOW_CREDENTIALS = True
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://react-redux-stock-app.vercel.app/stock/products/",
+]
